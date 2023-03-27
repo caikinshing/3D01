@@ -1,7 +1,7 @@
 <xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id=";;N:GZ?v6h{K_za3@u1G" x="246" y="-181"><statement name="HANDLER"><block type="mbit_CarCtrl" id="q1i@axQD~2|uC,Wcz2X^"><field name="index">mbit_小车类.CarState.Car_Run</field></block></statement></block><block type="pxt-on-start" id="3NXH2^9/a9~b/$vjDr`k" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id=".mJoYHtBV8Y#^,aWQT]("><field name="LEDS">`
-        # . . # . 
+        # . # # # 
         # . # . . 
-        # # . . . 
-        # . # . . 
-        # . . # .
+        # # # # # 
+        . . # . # 
+        # # # . #
         `</field></block></statement></block><block type="device_forever" id="F};=]R00_5G5o$?`|nKB" x="246" y="35"><statement name="HANDLER"><block type="device_while" id="mCeo;(~v+ZS~DNiaKjpo"><value name="COND"><shadow type="logic_boolean" id="%{t-S3^@U:[fI7G+BK9W"><field name="BOOL">FALSE</field></shadow><block type="mbit_Avoid_Sensor" id=".Ux+ROG#dT+ix=lIf@Qr"><field name="value">mbit_小车类.enAvoidState.OBSTACLE</field></block></value><statement name="DO"><block type="mbit_CarCtrlSpeed" id="clt_t:Hbcv1$o(1]g=0J"><field name="index">mbit_小车类.CarState.Car_Stop</field><value name="speed"><shadow type="math_number_minmax" id="_Ng8wD]Q,VFa?FD3^Tsz"><mutation min="0" max="255" label="Speed" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="mbit_CarCtrlSpeed" id="E6N)E%qbG{?0$`FufDi`"><field name="index">mbit_小车类.CarState.Car_SpinLeft</field><value name="speed"><shadow type="math_number_minmax" id="(_3$1a:LnCOKSPEN/aR0"><mutation min="0" max="255" label="Speed" precision="0"></mutation><field name="SLIDER">180</field></shadow></value></block></next></block></statement></block></statement></block><block type="controls_if" id="!Gdk[sUuZYPp$~|9eko~" disabled="true" x="613" y="661"><value name="IF0"><shadow type="logic_boolean" id="hzS1.!`P/myTYn[k4aSq" disabled="true"><field name="BOOL">TRUE</field></shadow></value></block><block type="device_while" id="w[L/+21dzSmH$4edqvap" disabled="true" x="332" y="780"><value name="COND"><shadow type="logic_boolean" id="Oq*sam92~PyQ_c^LUd-H" disabled="true"><field name="BOOL">FALSE</field></shadow></value></block></xml>

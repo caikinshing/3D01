@@ -1,9 +1,9 @@
 basic.showLeds(`
-    # . . # .
+    # . # # #
     # . # . .
-    # # . . .
-    # . # . .
-    # . . # .
+    # # # # #
+    . . # . #
+    # # # . #
     `)
 basic.forever(function () {
     mbit_小车类.CarCtrl(mbit_小车类.CarState.Car_Run)
